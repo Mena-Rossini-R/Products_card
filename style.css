@@ -1,67 +1,66 @@
-body{
-  font-family: 'Arial', sans-serif;
+body {
+    font-family: 'Arial', sans-serif;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f4f4f4;
-  padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 
-
-.product{
-  width: 300px;
-  background-color: #fff;
-  border: 2px solid #ddd;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 16px;
-  text-align: center;
+.product {
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    margin-right: 10%;
 }
-
 
 img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 12px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
 }
 
 h2 {
-  font-size: 20px;
-  margin: 12px 0 6px;
-  color: #333;
+    font-size: 20px;
+    margin: 12px 0 6px;
+    color: #333;
 }
 
 p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
 }
 
 .price {
-  font-size: 18px;
-  font-weight: bold;
-  color: #1a8917;
-  margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a8917;
+    margin-bottom: 14px;
 }
 
 .btn {
-  padding: 10px 16px;
-  background-color: #3c80ee;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
+    padding: 10px 16px;
+    background-color: #3c80ee;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
 }
 
 .btn:hover {
-  background-color: #e425e4;
+    background-color: #e425e4;
 }
 
 @media (max-width: 400px) {
-  .product {
-    width: 90%;
-  }
+    .product {
+        width: 90%;
+    }
 }
